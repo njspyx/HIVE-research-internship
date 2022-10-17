@@ -1,0 +1,106 @@
+0.8165007112375534
+
+'bootstrap': True,
+'criterion': 'gini',
+'max_depth': 9,
+'min_samples_leaf': 1,
+'min_samples_split': 2,
+'n_estimators': 300
+
+RANDOM_FOREST W/ CODEGS
+-----------------------
+col_0  CTRL  M0  M1  M2  M3  M4  M5
+row_0                              
+CTRL     40   0   0   0   0   0   0
+M0        0   4   0   0   0   0   0
+M1        0   0  11   2   0   0   0
+M2        0   0   4   9   0   2   0
+M3        0   0   0   0   4   0   0
+M4        1   1   0   1   0   8   0
+M5        0   0   0   0   0   1   5
+-----------------------------------
+              precision    recall  f1-score   support
+
+           0       0.75      0.60      0.67        15
+           1       1.00      0.83      0.91         6
+           2       0.73      0.85      0.79        13
+           3       0.73      0.73      0.73        11
+           4       0.80      1.00      0.89         4
+           5       1.00      1.00      1.00         4
+           6       0.98      1.00      0.99        40
+
+    accuracy                           0.87        93
+   macro avg       0.86      0.86      0.85        93
+weighted avg       0.87      0.87      0.87        93
+
+
+
+
+0.7575391180654338
+{'criterion': 'entropy',
+ 'max_depth': 9,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 3}
+
+Decision Tree w codegs
+-----------------------
+col_0  CTRL  M0  M1  M2  M3  M4  M5
+row_0                              
+CTRL     40   0   0   0   0   0   0
+M0        0   3   0   1   0   0   0
+M1        0   1   8   3   0   0   1
+M2        0   0   2   9   2   2   0
+M3        0   0   0   0   4   0   0
+M4        0   3   1   1   0   4   2
+M5        0   0   0   0   0   1   5
+
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.60      0.62        15
+           1       0.62      0.83      0.71         6
+           2       0.73      0.62      0.67        13
+           3       0.57      0.36      0.44        11
+           4       0.43      0.75      0.55         4
+           5       0.67      1.00      0.80         4
+           6       1.00      1.00      1.00        40
+
+    accuracy                           0.78        93
+   macro avg       0.67      0.74      0.68        93
+weighted avg       0.79      0.78      0.78        93
+
+
+0.8381223328591749
+{'learning_rate': 0.1,
+ 'loss': 'deviance',
+ 'max_depth': 4,
+ 'max_features': 0.1,
+ 'min_samples_leaf': 3,
+ 'n_estimators': 300}
+GradientBoost w/ CODEGS
+-----------------------
+col_0  CTRL  M0  M1  M2  M3  M4  M5
+row_0                              
+CTRL     40   0   0   0   0   0   0
+M0        0   3   0   1   0   0   0
+M1        0   1   8   3   0   0   1
+M2        0   0   2   9   2   2   0
+M3        0   0   0   0   4   0   0
+M4        0   3   1   1   0   4   2
+M5        0   0   0   0   0   1   5
+
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.60      0.62        15
+           1       0.62      0.83      0.71         6
+           2       0.73      0.62      0.67        13
+           3       0.57      0.36      0.44        11
+           4       0.43      0.75      0.55         4
+           5       0.67      1.00      0.80         4
+           6       1.00      1.00      1.00        40
+
+    accuracy                           0.78        93
+   macro avg       0.67      0.74      0.68        93
+weighted avg       0.79      0.78      0.78        93
+

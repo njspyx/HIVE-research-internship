@@ -1,0 +1,18 @@
+LGBM (all features, X_test):
+--------------------
+Accuracy:  0.9818181818181818
+Sensitivity:  0.9333333333333333
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[40  0]
+ [ 1 14]]
+
+LGBM (all features, X):
+Accuracy:  0.9963503649635036
+Sensitivity:  0.9868421052631579
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[198   0]
+ [  1  75]]
+
+

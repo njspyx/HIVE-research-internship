@@ -1,0 +1,29 @@
+LightGBM
+--------
+Accuracy:  1.0
+Sensitivity:  1.0
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[40  0]
+ [ 0 15]]
+
+RandomForest
+------------
+Accuracy:  0.9818181818181818
+Sensitivity:  0.9333333333333333
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[40  0]
+ [ 1 14]]
+
+DecisionTree
+------------
+Accuracy:  1.0
+Sensitivity:  1.0
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[40  0]
+ [ 0 15]]
+
+
+

@@ -1,0 +1,8 @@
+ALL THREE:
+----------
+Accuracy:  1.0
+Sensitivity:  1.0
+Sepcificity:  1.0
+Counfsion Matrix: 
+ [[40  0]
+ [ 0  4]]
